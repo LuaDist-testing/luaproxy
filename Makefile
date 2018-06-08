@@ -14,7 +14,7 @@ NOLINT=	1
 CFLAGS+=	-Wall -I${LOCALBASE}/include
 LDADD+=		-L${LOCALBASE}/lib
 
-LIBDIR=		${LOCALBASE}/lib/lua/5.1
+LIBDIR=		${LOCALBASE}/lib/lua/5.2
 
 libinstall:
 
